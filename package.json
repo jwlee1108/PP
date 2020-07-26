@@ -1,0 +1,42 @@
+{
+  "name": "pp",
+  "version": "1.0.0",
+  "description": "Practice Project",
+  "main": "index.js",
+  "scripts": {
+    "build-dev": "webpack --mode development --config config/webpack-config.js",
+    "build": "webpack --mode production --config config/webpack-config.js",
+    "dev": "webpack-dev-server --open --mode development --config config/webpack-config.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jwlee1108/PP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jwlee1108/PP/issues"
+  },
+  "homepage": "https://github.com/jwlee1108/PP#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jest": "^23.18.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "jest": "^26.1.0",
+    "material-design-icons": "^3.0.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

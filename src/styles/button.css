@@ -1,0 +1,75 @@
+.material-icons.sm { font-size: 10px; }
+.material-icons.md { font-size: 14px; }
+.material-icons.lg { font-size: 18px; }
+
+
+.jwl-btn {
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  border: none;
+}
+
+.jwl-btn .disableShadow {
+  box-shadow: none;
+}
+
+.jwl-btn.sm {
+  width: 73px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.jwl-btn.md {
+  width: 81px;
+  height: 36px;
+  line-height: 36px;
+  font-size: 18px;
+}
+
+.jwl-btn.lg {
+  width: 93px;
+  height: 42px;
+  line-height: 42px;
+  font-size: 22px;
+}
+
+
+.jwl-btn .default {
+  background: #E0E0E0;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  color: #3F3F3F;
+}
+
+.jwl-btn .default:hover, :focus {
+  background: #AEAEAE;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  outline: none;
+}
+
+.jwl-btn .default .outline {
+  border: 1px solid #3F3F3F;
+}
+
+.jwl-btn .default .outline:hover, :focus {
+  background: rgba(63, 63, 63, 0.1);
+  border: 1px solid #3F3F3F;
+}
+
+.jwl-btn .default .text {
+  background: transparent !important;
+  border: none;
+}
+
+.jwl-btn .default .text:hover, :focus {
+  background: rgba(63, 63, 63, 0.1);
+}
+
+.jwl-btn .default .disabled {
+  background: #E0E0E0;
+  color: #9E9E9E;
+}
